@@ -1,0 +1,77 @@
+# ⚙️ Módulo 11: Automação e DevOps na AWS
+
+## 🎯 Objetivo
+Este módulo tem como objetivo **compreender e aplicar conceitos de automação e DevOps utilizando serviços da AWS**, integrando práticas que aumentam a eficiência no desenvolvimento, implantação e gerenciamento de aplicações em nuvem.  
+
+O participante aprenderá a **automatizar tarefas**, **criar recursos com ferramentas de IaC** e **aplicar o ciclo de DevOps na AWS** por meio de serviços gerenciados e práticas consolidadas.
+
+---
+
+## 🧩 Conteúdos Estudados
+
+### 🔹 **Como automatizar tarefas**
+Introdução aos conceitos de **automação na nuvem**, abordando o uso de scripts, eventos e serviços AWS para reduzir tarefas manuais e otimizar fluxos de trabalho.  
+Exemplos práticos incluem automação de **backup, limpeza de dados e execução de jobs programados**.
+
+---
+
+### 🔹 **Executando tarefas com Lambda Function e S3**
+Uso conjunto do **AWS Lambda** (funções serverless) com o **Amazon S3** (armazenamento de objetos) para executar tarefas automatizadas, como:
+- Processamento automático de arquivos enviados para buckets S3;  
+- Geração de logs e notificações;  
+- Integração com outros serviços da AWS sem necessidade de servidores.
+
+💡 **Benefícios:** baixo custo, alta escalabilidade e manutenção simplificada.
+
+---
+
+### 🔹 **Criação de recursos com Terraform**
+Exploração do **Terraform**, ferramenta open-source de **Infrastructure as Code (IaC)**, que permite **definir, provisionar e gerenciar recursos** em múltiplos provedores, incluindo a AWS.  
+O foco está na criação automatizada de infraestrutura de forma **padronizada, versionada e reprodutível**.
+
+---
+
+### 🔹 **O que é DevOps**
+Conceito que une **desenvolvimento (Dev)** e **operações (Ops)**, promovendo colaboração, integração contínua e entrega contínua (CI/CD).  
+O objetivo é **aumentar a agilidade**, **melhorar a qualidade de software** e **otimizar o ciclo de entrega de valor ao cliente**.
+
+---
+
+### 🔹 **Aplicando o conceito de DevOps na AWS**
+Demonstra como a AWS oferece ferramentas e serviços que permitem **implementar pipelines DevOps completos**, desde o versionamento até a implantação automatizada.  
+Inclui a utilização de **CodeCommit, CodeBuild, CodeDeploy e CodePipeline** para criar fluxos contínuos de integração e entrega.
+
+---
+
+### 🔹 **Ferramentas da AWS para DevOps**
+Principais serviços utilizados no ecossistema DevOps da AWS:
+
+- **AWS CodeCommit:** controle de versão de código (similar ao GitHub);  
+- **AWS CodeBuild:** automação de build e testes;  
+- **AWS CodeDeploy:** implantação automatizada em instâncias, Lambda ou containers;  
+- **AWS CodePipeline:** orquestração de pipelines CI/CD;  
+- **AWS CloudFormation e Terraform:** automação de infraestrutura como código;  
+- **Amazon CloudWatch:** monitoramento contínuo e geração de métricas.
+
+---
+
+## 📦 Entregável
+O entregável deste módulo consiste em um **repositório Git estruturado**, contendo:
+
+- 🗂️ **Scripts e templates** usados para automação com Lambda, S3 e Terraform;  
+- 📝 **Anotações e insights** sobre os conceitos de DevOps aplicados na AWS;  
+- ⚙️ **Exemplos práticos de pipelines CI/CD** e automação de tarefas;  
+- 📘 **Documentação explicando a arquitetura** das soluções criadas.  
+
+---
+
+## 🚀 Tecnologias e Serviços
+- **AWS Lambda**  
+- **Amazon S3**  
+- **Terraform**  
+- **AWS CodeCommit / CodeBuild / CodeDeploy / CodePipeline**  
+- **Amazon CloudWatch**  
+
+---
+
+Repositório criado como parte do **Módulo 11 – Automação e DevOps na AWS**, com foco em práticas modernas de infraestrutura, automação e entrega contínua.
